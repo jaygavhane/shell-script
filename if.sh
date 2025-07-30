@@ -2,6 +2,7 @@
 
 
 userinput=$1
+color=$2
 cnumber=50
 
 if [ "$userinput" -gt "$cnumber" ]; then
@@ -11,3 +12,9 @@ elif [ "$userinput" -lt "$cnumber" ]; then
 else
   echo "Guess is currect"
 fi
+
+
+if [ "$color" = "blue" ]; then
+  echo "The Color is Currect"
+else
+  echo "The Color is Incurrect"
