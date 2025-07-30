@@ -18,3 +18,4 @@ if [ "$color" = "blue" ]; then
   echo "The Color is Currect"
 else
   echo "The Color is Incurrect"
+fi
