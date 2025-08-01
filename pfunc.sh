@@ -16,3 +16,5 @@ function ShowFiles() {
 
 Getfile
 ShowFiles $FILES
+
+exit 0
